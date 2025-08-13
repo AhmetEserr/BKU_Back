@@ -19,10 +19,6 @@ Frontend: Flutter (+ Riverpod) ile modern soru–cevap arayüzü ve canlı günc
 
 Not: JWT kimlik doğrulama opsiyonel. Şu anki kurulumda kapalı (Hub’ta [Authorize] yok, Program.cs’de AddAuthentication yorumlu).
 
-Mimari
-yaml
-Kopyala
-Düzenle
 ┌─────────────────────────────────────┐
 │            Flutter (App)            │
 │  - http: REST /api/*                │
