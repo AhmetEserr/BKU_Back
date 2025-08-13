@@ -120,7 +120,7 @@ Not: UI’da A/B/C/D sadece görsel etiket; sunucuya AnswerId gönderilir.
     <pre><code>{
   "ServerURL": "http://0.0.0.0:5058",  // veya yerel IP'niz: "http://x.x.x.x:5058"
   "ConnectionStrings": {
-    "DefaultConnection": "Server=CSNBAHMETESER\\SQLEXPRESS01;Database=BKUDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+    "DefaultConnection": "Server=AHMETESER\\SQLEXPRESS01;Database=BKUDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
   },
   "AllowedHosts": "*"
 }</code></pre>
