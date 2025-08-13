@@ -1,0 +1,6 @@
+@BKU_HostAddress = http://localhost:5132
+
+GET {{BKU_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
