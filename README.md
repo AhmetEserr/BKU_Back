@@ -118,7 +118,7 @@ Not: UI’da A/B/C/D sadece görsel etiket; sunucuya AnswerId gönderilir.
 <ol>
   <li><b>appsettings.json</b> ayarını yapın:
     <pre><code>{
-  "ServerURL": "http://0.0.0.0:5058",  // veya yerel IP'niz: "http://192.168.1.34:5058"
+  "ServerURL": "http://0.0.0.0:5058",  // veya yerel IP'niz: "http://x.x.x.x:5058"
   "ConnectionStrings": {
     "DefaultConnection": "Server=CSNBAHMETESER\\SQLEXPRESS01;Database=BKUDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
   },
@@ -153,7 +153,7 @@ dotnet ef database update                 # mevcut migration'ları uygular
     <pre><code>// Emülatör (Android):
 const baseUrl = 'http://10.0.2.2:5058';
 // Fiziksel cihaz (aynı ağdaki PC IP'si):
-// const baseUrl = 'http://192.168.1.34:5058';
+// const baseUrl = 'http://x.x.x.x:5058';
 
 const apiBase = '$baseUrl/api';
 const hubUrl  = '$baseUrl/hubs/quiz';
