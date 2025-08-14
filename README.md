@@ -67,7 +67,7 @@ Not: UI’da A/B/C/D sadece görsel etiket; sunucuya AnswerId gönderilir.
 
 <h2 id="klasor">🗂️ Klasör Yapısı</h2>
 <pre style="background:#0b1021;color:#e6e6e6;padding:16px;border-radius:12px;overflow:auto;">
-.
+bku_v1
 ├─ backend/
 │  └─ BKU/
 │     ├─ Controllers/
