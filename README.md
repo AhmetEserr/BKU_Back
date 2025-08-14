@@ -1,6 +1,6 @@
 <!-- README.md (HTML + inline CSS) -->
 <div align="center" style="padding:28px 16px; background:linear-gradient(135deg,#f5ecff,#f7f9ff); border-radius:18px;">
-  <h1 style="margin:0; font-size:44px;">BKÜ Quiz</h1>
+  <h1 style="margin:0; font-size:44px;">BKU Quiz</h1>
   <p style="margin:8px 0 18px; font-size:16px;">
     ASP.NET Core (.NET <b>9.0.8</b>) + Flutter ile gerçek zamanlı (SignalR) quiz uygulaması
   </p>
