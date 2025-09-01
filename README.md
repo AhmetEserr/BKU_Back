@@ -212,7 +212,7 @@ INSERT INTO [dbo].[Answers] ([Text],[IsCorrect],[QuestionId]) VALUES
 
 <h2 id="trouble">🛠️ Sorun Giderme</h2>
 <ul>
-  <li><b>Flutter emülatörü → backend’e bağlanmıyor:</b> <code>10.0.2.2</code> kullanın; fiziksel cihazda PC IP’sini yazın, 5058 portunu firewall’da açın.</li>
+  <li><b>Flutter emülatörü → backend’e bağlanmıyor:</b> <code>x.x.x.x</code> kullanın; fiziksel cihazda PC IP’sini yazın, 5058 portunu firewall’da açın.</li>
   <li><b>SignalR negotiate 500:</b> Hub rotası (<code>/hubs/quiz</code>), CORS ve HTTP/HTTPS uyumu, URL’ler ve log dosyalarına bakın.</li>
   <li><b>EF “Invalid column”:</b> Model & migration uyumsuz. Gerekirse yeni migration ekleyip <code>dotnet ef database update</code> çalıştırın.</li>
   <li><b>“Başa Dön” son soruyu gösteriyor:</b> Flutter’da ResultScreen → <code>onRestart()</code> çağırıp provider state’ini sıfırlayın; sonra <code>pop()</code>.</li>
