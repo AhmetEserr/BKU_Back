@@ -170,7 +170,7 @@ flutter run</code></pre>
 <div style="margin-top:10px; padding:12px 14px; background:#fff7e6; border:1px solid #ffe2b8; border-radius:10px;">
   <b>Notlar</b>
   <ul style="margin:6px 0 0 16px;">
-    <li>Emülatörden PC’ye bağlanırken her zaman <code>10.0.2.2</code> kullanın. Gerçek cihazda PC’nin LAN IP’sini yazın ve Windows güvenlik duvarında portu (5058) açın.</li>
+    <li>Emülatörden PC’ye bağlanırken her zaman <code>x..x.x.x</code> kullanın. Gerçek cihazda PC’nin LAN IP’sini yazın ve Windows güvenlik duvarında portu (5058) açın.</li>
     <li>Backend HTTP çalışıyorsa Flutter tarafında da HTTP kullanın (HTTPS karışmasın).</li>
     <li>SignalR için <code>MapHub("/hubs/quiz")</code>, CORS ve URL’lerin tutarlı olması kritik.</li>
   </ul>
