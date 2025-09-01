@@ -120,7 +120,7 @@ bku_v1
     <pre><code>{
   "ServerURL": "http://0.0.0.0:5058",  // veya yerel IP'niz: "http://x.x.x.x:5058"
   "ConnectionStrings": {
-    "DefaultConnection": "Server=AHMETESER\\SQLEXPRESS01;Database=BKUDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+    "DefaultConnection": "Server=XXX\\XXX1;Database=BKUDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
   },
   "AllowedHosts": "*"
 }</code></pre>
@@ -151,7 +151,7 @@ dotnet ef database update                 # mevcut migration'ları uygular
 <ol>
   <li><b>Base URL</b> ayarı (<code>app/bku_v1/lib/core/config.dart</code>):
     <pre><code>// Emülatör (Android):
-const baseUrl = 'http://10.0.2.2:5058';
+const baseUrl = 'http:///x.x.x.x:5058';
 // Fiziksel cihaz (aynı ağdaki PC IP'si):
 // const baseUrl = 'http://x.x.x.x:5058';
 
